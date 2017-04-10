@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f9f7"
+    android:padding="16dp"
+    tools:context="bridgelabz.app.com.GridSwipe.ui.RegisterationActivity">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextNameReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:hint="Name"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#070008"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextEmailReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextNameReg"
+        android:layout_margin="5dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center_vertical"
+        android:hint="Email"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#0a000d"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextPassReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextEmailReg"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#060008"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextMobReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/rregimage"
+        android:layout_alignTop="@+id/TextviewMobileno_Reg"
+        android:layout_marginLeft="55dp"
+        android:gravity="center_vertical"
+        android:hint="Mobile"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#020002"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/TextviewMobileno_Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextPassReg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="+91"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#030003"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextAddressReg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/TextviewMobileno_Reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="Address"
+        android:padding="@dimen/dimen_5dp"
+        android:textColorHint="#060006"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/SaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#0a000b"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/editTextAddressReg"
+        android:text="save"
+        android:textSize="20dp" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/AlreadyAccButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:text="Already have acc ? sign in"
+        android:textSize="20dp"
+        android:textColor="#060006"
+        android:layout_alignTop="@+id/SaveButton"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+        </RelativeLayout>
+      </ScrollView>
+
+    </LinearLayout>

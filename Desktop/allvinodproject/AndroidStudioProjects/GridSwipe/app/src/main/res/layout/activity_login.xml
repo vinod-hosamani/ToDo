@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f4ef"
+    android:orientation="vertical"
+    android:id="@+id/layout1"
+    android:padding="16dp"
+    android:paddingLeft="@dimen/dimen_10dp"
+    android:paddingRight="@dimen/dimen_10dp"
+    tools:context="bridgelabz.app.com.GridSwipe.ui.LoginActivity">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextEmlogin"
+        android:layout_width="358dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:padding="@dimen/dimen_10dp"
+        android:hint="Email"
+        android:textColor="#101010"
+                android:textSize="20dp"
+        android:textColorHint="#0e0e0e" />
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/editTextPasslogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:padding="@dimen/dimen_10dp"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="#111112"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textviewforgotpwdlogin"
+        android:layout_width="match_parent"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_height="wrap_content"
+        android:text="forgot_password"
+        android:textColor="#333314"
+        android:textSize="20dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_marginLeft="120dp"
+        android:text="Login in "
+        android:textColor="#080808"
+        android:textSize="20dp" />
+
+            <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:weightSum="1"
+           android:padding="10dp"
+           android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/buttonCreateAccount"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="Createaccount"
+                    android:textColor="#060606"
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+
